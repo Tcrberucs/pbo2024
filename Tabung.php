@@ -1,5 +1,5 @@
 <?php
-class Tabung
+class tabung
 {
     const PHI = 3.14;
     public $jari_jari;

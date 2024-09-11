@@ -1,6 +1,6 @@
 <?php
 
-class Book
+class book
 {
     // Atribut
     public $ISBN;

@@ -1,5 +1,5 @@
 <?php
-class Kerucut
+class kerucut
 {
     const PHI = 3.14;
     public $jari_jari;

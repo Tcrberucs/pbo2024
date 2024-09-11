@@ -1,6 +1,6 @@
 <?php
 
-class Author
+class author
 {
     public $name;
     public $description;
