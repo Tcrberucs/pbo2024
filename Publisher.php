@@ -23,17 +23,3 @@ class publisher
         return $this->phone;
     }
 }
-
-// Contoh penggunaan kelas Publisher
-$publisher = new Publisher("Penerbit ZYX", "Jl. lorem ipsum", 123456789);
-
-// Menampilkan informasi penerbit
-echo "Nama Penerbit: " . $publisher->name . "\n";
-echo "Alamat Penerbit: " . $publisher->address . "\n";
-echo "Nomor Telepon Penerbit: " . $publisher->getPhone() . "\n";
-
-// Mengubah nomor telepon
-$publisher->setPhone(987654321);
-echo "Nomor Telepon Penerbit setelah diubah: " . $publisher->getPhone() . "\n";
-
-?>

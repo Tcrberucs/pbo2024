@@ -47,15 +47,3 @@ class book
         }
     }
 }
-
-// Contoh penggunaan kelas Book
-$book1 = new Book(123456789, "Belajar Game", "Panduan lengkap untuk belajar Game.", "Teknologi", "Indonesia", 250, "Albert", "Penerbit ZYX");
-
-// Menampilkan semua informasi buku
-print_r($book1->showAll());
-
-// Menampilkan detail buku berdasarkan ISBN
-print_r($book1->detail(123456789));
-print_r($book1->detail(987654321)); // Buku tidak ditemukan
-
-?>

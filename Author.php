@@ -25,21 +25,3 @@ class author
         }
     }
 }
-
-$author = new Author("Tere Liye", "Penulis buku Bumi");
-
-// Menampilkan nama penulis
-echo "Menampilkan Nama Penulis:\n";
-print_r($author->show('name'));
-
-// Menampilkan deskripsi penulis
-echo "Menampilkan Deskripsi Penulis:\n";
-print_r($author->show('description'));
-
-// Menampilkan semua informasi penulis
-echo "Menampilkan Semua Informasi Penulis:\n";
-print_r($author->show('all'));
-
-// Menampilkan dengan tipe yang tidak valid
-echo "Menampilkan Tipe yang Tidak Valid:\n";
-print_r($author->show('invalid'));
