@@ -12,6 +12,6 @@ class Dosen extends Pegawai {
     }
 
     public function mengajar(): void {
-        echo "{$this->nama} sedang mengajar perkuliahan";
+        echo "{$this->nama} dengan NIP {$this->nip} sedang mengajar perkuliahan";
     }
 }
