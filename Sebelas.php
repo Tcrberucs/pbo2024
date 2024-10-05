@@ -1,7 +1,6 @@
 <?php
-require_once 'App/Admin/Dosen.php';
-
-use App\Admin\Dosen;
+use App\Model\Akademik\Dosen;
+require_once 'vendor/autoload.php';
 
 $dian = new Dosen(
     198411132015041001,  
@@ -11,3 +10,5 @@ $dian = new Dosen(
     '0013118405'          
 );
 $dian->mengajar();
+//$dian->nidn = 1000121184001;
+echo $dian->getNoHp();

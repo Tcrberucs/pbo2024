@@ -4,7 +4,7 @@ namespace App\Admin;
 require_once 'Pegawai.php';
 
 class Dosen extends Pegawai {
-    public string $nidn;
+    private int $nidn;
 
     public function __construct(int $nip, string $nama, int $no_hp, string $alamat, string $nidn) {
         parent::__construct($nip, $nama, $no_hp, $alamat);
@@ -12,6 +12,6 @@ class Dosen extends Pegawai {
     }
 
     public function mengajar(): void {
-        echo "{$this->nama} dengan NIP {$this->nip} sedang mengajar perkuliahan";
+        echo $this->nama . " sedang mengajar perkuliahan";
     }
 }
